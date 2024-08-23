@@ -1,0 +1,250 @@
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    flex: auto;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 50px;
+}
+
+#index_page {
+    background-color: #fcf9ec;
+    max-width: 1200px;
+}
+
+.main {
+    float: right;
+    border-radius: 50%;
+
+
+}
+
+#mainImage {
+
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 1px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+#Pets_Victoria {
+    font-family: 'Permanent Marker';
+    color: #E57F3D;
+    font-size: 70px;
+}
+
+#Welcome_to_pet_adoption {
+    font-family: 'Poetsen One';
+    color: #008080;
+    font-size: 70px;
+}
+
+footer {
+    font-family: 'Ysabeau SC';
+    color: #008080;
+    text-align: center;
+    padding: 10px;
+    background-color: #E57F3D;
+    clear: both;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 15px;
+}
+
+.navbar {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #008080;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+
+#logo {
+    max-width: 5%;
+    height: auto;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+.dropdown {
+    margin-right: 30px;
+}
+
+.search-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.pets {
+    padding-bottom: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Poetsen One';
+}
+
+table {
+    float: right;
+    border: 1px solid black;
+    font-family: 'Ysabeau SC';
+}
+
+th {
+    background-color: #fcf9ec;
+    text-align: left;
+}
+
+td {
+    padding-right: 80px;
+    text-align: left;
+}
+
+th {
+    color: #008080;
+}
+
+p {
+    font-family: 'Ysabeau SC';
+    text-align: center;
+}
+
+#pet_name,
+#description,
+#image_caption,
+#age,
+#location {
+    margin: 0 auto;
+    width: 1150px;
+    height: 40px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#max_image_label {
+    color: red;
+    font-style: italic;
+    font-family: 'Ysabeau SC';
+    font-weight: bold;
+    font-size: 10px;
+}
+
+label {
+    font-family: 'Ysabeau SC';
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#submit_button {
+    margin: 0 10px;
+    background-color: #008080;
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#clear_button {
+    margin: 0 10px;
+    border: 1px solid;
+    background-color: white;
+    color: #008080;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#select_type {
+    margin: 0 auto;
+    width: 1150px;
+    height: 40px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.green {
+    background-color: #008080;
+    color: white;
+}
+
+#button {
+    background-color: #008080;
+    border: none;
+}
+
+
+.gallery-image {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #ccc;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+}
+
+.gallery-image img {
+
+    border-top-left-radius: 15px;
+
+    border-top-right-radius: 15px;
+
+    border-bottom: 2px solid #ccc;
+}
+
+
+.image-header {
+    padding: 10px;
+    font-family: 'Ysabeau SC';
+}
+
+.gallery-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#menu {
+    border-radius: 5px;
+
+    padding: 5px;
+}
+
+.search-container input[type="text"] {
+    border-radius: 5px;
+
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.mandatory {
+    color: red;
+    margin-left: 3px;
+    font-family: 'Ysabeau SC';
+}

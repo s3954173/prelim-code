@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gallery</title>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <img id="logo" src="images/logo.png" alt="logo"><a href="index.html"></a>
+                <div class=" dropdown">
+                    <form action="/action_page.php">
+                        <select id="menu" onchange="doMenu(this)">
+                            <option value="">Select Options</option>
+                            <option value="index.html">Home</option>
+                            <option value="add.html">Add</option>
+                            <option value="gallery.html">Gallery</option>
+                            <option value="pets.html">Pets</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button id="button" type="submit">
+                            <span class="material-symbols-outlined green"> search </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h3>Pets Victoria has a lot to offer!</h3>
+        <p>For almost two decades, Pets Victoria has helped in creating true social change by bringing pet adoption into
+            the
+            mainstream. Our work has helped make a difference to the Victorian rescue community and thousands of pets in
+            need of
+            rescue and rehabilitation. But, until every pet is safe, respected, and loved, we all still have big, hairy
+            work to do.</p>
+        <div class="gallery-container">
+            <div class="row">
+                <div class="gallery-image"><img src="images/cat1.jpeg" alt="Milo">
+                    <div class="image-header">
+                        <h4>Milo</h4>
+                    </div>
+                </div>
+                <div class="gallery-image"><img src="images/dog1.jpeg" alt="Baxter">
+                    <div class="image-header">
+                        <h4>Baxter</h4>
+                    </div>
+                </div>
+                <div class="gallery-image"><img src="images/cat2.jpeg" alt="Luna">
+                    <div class="image-header">
+                        <h4>Luna</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="gallery-image"><img src="images/dog2.jpeg" alt="Willow">
+                    <div class="image-header">
+                        <h4>Willow</h4>
+                    </div>
+                </div>
+                <div class="gallery-image"><img src="images/cat4.jpeg" alt="Oliver">
+                    <div class="image-header">
+                        <h4>Oliver</h4>
+                    </div>
+                </div>
+                <div class="gallery-image"><img src="images/dog3.jpeg" alt="Bella">
+                    <div class="image-header">
+                        <h4>Bella</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p id="footer">©Copyright s3965051. All Rights Reserved|Designed For Pets Victoria</p>
+    </footer>
+</body>
+
+</html>

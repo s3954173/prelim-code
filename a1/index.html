@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Index</title>
+    <script src="js/main.js"></script>
+</head>
+
+<body id="index_page">
+    <header>
+        <nav>
+            <div class="navbar">
+                <img id="logo" src="images/logo.png" alt="logo">
+                <div class="dropdown">
+                    <form action="/action_page.php">
+                        <select id="menu" onchange="doMenu(this)">
+                            <option value="">Select Options</option>
+                            <option value="index.html">Home</option>
+                            <option value="add.html">Add</option>
+                            <option value="gallery.html">Gallery</option>
+                            <option value="pets.html">Pets</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button id="button" type="submit">
+                            <span class="material-symbols-outlined green"> search </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <img id="mainImage" class="main" src="images/main.jpg" alt="main">
+    </main>
+    <aside>
+        <h1 id="Pets_Victoria">Pets Victoria</h1>
+        <h2 id="Welcome_to_pet_adoption">Welcome to pet adoption</h2>
+    </aside>
+    <footer>
+        <p id="footer">©Copyright s3965051. All Rights Reserved|Designed For Pets Victoria</p>
+    </footer>
+</body>
+
+</html>
