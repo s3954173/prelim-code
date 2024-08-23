@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <script src="js/main.js"></script>
 </head>
+
 <body>
+    <header>
+        <nav>
+            <div class="Nav-Bar">
+                <div class="Logo-Image-Container">
+                </div>
+                <div class="Drop-Down-Container">
+                    <form action="/action_page.php">
+                        <select id="menu" onchange="doMenu(this)">
+                            <option value="">Select Options</option>
+                            <option value="index.html">Home</option>
+                            <option value="add.html">Add</option>
+                            <option value="gallery.html">Gallery</option>
+                            <option value="pets.html">Pets</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="Search-Container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search..">
+                        <button id="Search-Button"></button>
+                    </form>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div id="Index-Image-Container">
+            <img id="main" src="images/main.jpg" alt="main">
+        </div>
+    </main>
+    <aside>
+        <h1 id="Pets-Victoria">Pets Victoria</h1>
+        <h2 id="Welcome-To-Pet-Adoption">Welcome To Pet Adoption</h2>
+    </aside>
+    <footer>
+        <p class="footer">©Copyright s3965051. All Rights Reserved|Designed For Pets Victoria</p>
+    </footer>
 
 </body>
+
 </html>
