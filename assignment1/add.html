@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add</title>
+    <script src="js/main.js"></script>
 </head>
-<body>
 
+<body>
+    <header>
+        <nav>
+            <div class="Nav-Bar">
+                <div class="Logo-Image-Container">
+                    <img src="images/logo.png" alt="Logo">
+                </div>
+                <div class="Drop-Down-Container">
+                    <form action="/action_page.php">
+                        <select id="menu" onchange="doMenu(this)">
+                            <option value="">Select Options</option>
+                            <option value="index.html">Home</option>
+                            <option value="add.html">Add</option>
+                            <option value="gallery.html">Gallery</option>
+                            <option value="pets.html">Pets</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="Search-Container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search..">
+                        <button id="Search-Button"></button>
+                    </form>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <form action="/action_page.php">
+            <label for="">Pet Name:</label>
+            <input type="text" id="Pet-Name" name="Pet-Name" placeholder="Provide a name for the pet">
+            <label for="">Type:</label>
+            <select name="Select-Type" id="Select-Type">
+                <option value="">--Choose an option--</option>
+                <option value="">Cat</option>
+                <option value="">Dog</option>
+            </select>
+            <label for="">Description:</label>
+            <textarea name="Description" id="Description" placeholder="Describe the pet briefly"></textarea>
+            <label for="">Select An Image:</label>
+            <input type="file" id="Max-Image" name="Max-Image">
+            <label for="">Image Caption:</label>
+            <input type="text" id="Image-Caption" name="Image-Caption" placeholder="Describe the image in one word">
+            <label for="">Age (Months):</label>
+            <input type="text" id="Age" name="Age" placeholder="Age of pet in months">
+            <label for="">Location:</label>
+            <input type="text" id="Location" name="Location" placeholder="Location of the pet">
+
+            <div class="Button-Container">
+                <button type="button" id="Submit-Button">Sumbit</button>
+                <button type="button" id="Clear-Button">Clear</button>
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <p class="footer">©Copyright s3965051. All Rights Reserved|Designed For Pets Victoria</p>
+    </footer>
 </body>
+
 </html>
