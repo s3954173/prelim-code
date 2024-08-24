@@ -28,3 +28,23 @@ footer {
     border-radius: 20px;
     color: #008080;
 }
+
+#Welcome-To-Pet-Adoption {
+    font-size: 70px;
+    color: #008080;
+    font-family: 'Poetsen One';
+}
+
+#Pets-Victoria {
+    font-family: 'Permanent Marker';
+    color: #E57F3D;
+    font-size: 70px;
+}
+
+.Nav-Bar {
+    background-color: #008080;
+}
+
+.Search-Container{
+    float: right;
+}
