@@ -1,0 +1,30 @@
+body {
+    margin: auto;
+    max-width: 1200px;
+    padding-bottom: 50px;
+}
+
+#Index-Page {
+    background-color: #fcf9ec
+}
+
+#Index-Image-Container {
+    float: right;
+    padding: 50px;
+}
+
+#main {
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+footer {
+    font-family: 'Ysabeau SC';
+    text-align: center;
+    clear: both;
+    background-color: #E57F3D;
+    padding: 20px;
+    border-radius: 20px;
+    color: #008080;
+}
