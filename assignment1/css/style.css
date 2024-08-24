@@ -5,7 +5,7 @@ body {
 }
 
 #Index-Page {
-    background-color: #fcf9ec
+    background-color: #fcf9ec;
 }
 
 #Index-Image-Container {
@@ -16,7 +16,6 @@ body {
 #main {
     border-radius: 50%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-
 }
 
 footer {
@@ -43,8 +42,47 @@ footer {
 
 .Nav-Bar {
     background-color: #008080;
+    max-width: 1200px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+
 }
 
-.Search-Container{
-    float: right;
+.Drop-Down-Container {
+    flex: 1;
+    text-align: left;
+}
+
+.Drop-Down-Container select {
+    padding: 10px;
+    border-radius: 15px;
+    border: white;
+    height: 42px;
+}
+
+.Search-Container input[type="text"] {
+    padding: 5px;
+    border-radius: 15px;
+    border: white;
+    height: 42px;
+}
+
+
+.Search-Container {
+    flex: 1;
+    text-align: right;
+
+}
+
+.green {
+    background-color: #008080;
+    color: white;
+}
+
+#Search-Button {
+    background-color: #008080;
+    border: none;
 }
