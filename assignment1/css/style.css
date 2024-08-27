@@ -2,9 +2,10 @@ body {
     margin: auto;
     max-width: 1200px;
     padding-bottom: 50px;
+
 }
 
-#Index-Page {
+#Wrapper {
     background-color: #fcf9ec;
 }
 
@@ -54,26 +55,30 @@ footer {
 .Drop-Down-Container {
     flex: 1;
     text-align: left;
+    display: flex;
 }
 
 .Drop-Down-Container select {
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
     border: white;
-    height: 42px;
+    height: 40px;
+    font-size: 12px;
 }
 
 .Search-Container input[type="text"] {
     padding: 5px;
     border-radius: 15px;
     border: white;
-    height: 42px;
+    height: 40px;
+    font-size: 12px;
 }
 
 
 .Search-Container {
     flex: 1;
     text-align: right;
+
 
 }
 
@@ -86,3 +91,13 @@ footer {
     background-color: #008080;
     border: none;
 }
+
+ input,
+ select {
+     width: 200px;
+     height: 25px;
+     margin: 2px;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ }
