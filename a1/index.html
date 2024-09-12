@@ -24,9 +24,14 @@
     <header>
         <nav>
             <div class="navbar">
-                <img id="logo" src="images/logo.png" alt="logo">
-                <div class="dropdown">
-                    <form action="/action_page.php">
+
+                <div class="logo-container">
+                    <a href="index.html">
+                        <img id="logo" src="images/logo.png" alt="logo">
+                    </a>
+
+                    <div class="dropdown">
+                        <!-- <form action="/action_page.php"> -->
                         <select id="menu" onchange="doMenu(this)">
                             <option value="">Select Options</option>
                             <option value="index.html">Home</option>
@@ -34,16 +39,20 @@
                             <option value="gallery.html">Gallery</option>
                             <option value="pets.html">Pets</option>
                         </select>
-                    </form>
+                        <!-- </form> -->
+                    </div>
                 </div>
+
                 <div class="search-container">
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Search.." name="search">
-                        <button id="button" type="submit">
-                            <span class="material-symbols-outlined green"> search </span>
-                        </button>
-                    </form>
+                    <!-- <form action="/action_page.php"> -->
+                    <input type="text" placeholder="Search.." name="search">
+                    <button id="button" type="submit" class="material-symbols-outlined green">
+                        search
+                        <!-- <span class="material-symbols-outlined green"> search </span> -->
+                    </button>
+                    <!-- </form> -->
                 </div>
+
             </div>
         </nav>
     </header>
